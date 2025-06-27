@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dados da Loja - BookCrate</title>
+  <link rel="stylesheet" href="dadosdaloja.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="img/image 2.png" alt="Logo BookCrate" />
+        <p>BookCrate</p>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Serviços</a>
+        <a href="#">Perfil</a>
+        <a href="#">Sobre Nós</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="store-info">
+      <h1>Dados da Loja</h1>
+      <div class="info-grid">
+        <div><strong>Nome:</strong> BookCrate Central</div>
+        <div><strong>Endereço:</strong> Rua das Letras, 123, Centro</div>
+        <div><strong>Contato:</strong> (11) 99999-9999</div>
+        <div><strong>Email:</strong> contato@bookcrate.com.br</div>
+        <div><strong>Horário:</strong> Seg - Sex: 9h - 18h</div>
+      </div>
+      <button class="btn" id="editStoreBtn">Editar Dados</button>
+    </section>
+
+    <section class="products-section">
+      <h2>Produtos Cadastrados</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Categoria</th>
+            <th>Preço</th>
+            <th>Estoque</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Livro Aventura</td>
+            <td>Ficção</td>
+            <td>R$ 39,90</td>
+            <td>12</td>
+            <td><button class="btn small-btn">Editar</button></td>
+          </tr>
+          <tr>
+            <td>Manual de Estudo</td>
+            <td>Educação</td>
+            <td>R$ 24,50</td>
+            <td>30</td>
+            <td><button class="btn small-btn">Editar</button></td>
+          </tr>
+          <tr>
+            <td>HQ Comics</td>
+            <td>Entretenimento</td>
+            <td>R$ 29,99</td>
+            <td>5</td>
+            <td><button class="btn small-btn">Editar</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="btn" id="addProductBtn">Adicionar Produto</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 BookCrate. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
